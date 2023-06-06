@@ -1,0 +1,13 @@
+# calculates factorial of given number.
+# python code
+
+def factorial(num):
+    assert int(num) == num & int(num) >= 0, "Enter only positive numbers!"
+    if num in [0, 1]:
+        return 1
+    while num > 0:
+        return num * factorial(num - 1)
+
+
+print(factorial(5))
+  
